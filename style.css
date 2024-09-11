@@ -1,0 +1,102 @@
+body{
+    background-color: #ff000025;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.container{
+    width: 500xp;
+    background-color: #fac9c9;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border: 3px solid rgba(255, 0, 0, 0.466);
+}
+
+h2{
+    color: red;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.love-calculator{
+    margin-top: 10px;
+
+
+}
+
+label{
+    color: rgba(0, 0, 0, 0.637);
+    display: block;
+    margin-top: 30px;
+}
+
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: red;
+}
+
+button{
+    
+    margin: 10px 50%;
+    transform: translateX(-50%);
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid rgb(255, 51, 51);
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.829);
+  cursor: pointer;
+  display: inline-block;
+   
+  font-size: 14px;
+  font-weight: 800;
+  
+  min-width: 0;
+  outline: none;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+    
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+}
+
+button:disabled{
+  pointer-events: none;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 70, 70);
+  box-shadow: rgba(44, 44, 44, 0.521) 0 4px 10px;
+  /* transform: translateY(-2px); */
+}
+
+button:active  {
+  box-shadow: none;
+  /* transform: translateY(0); */
+
+} 
+
+
+#result{
+    margin-top: 10px;
+    /* font-weight: 700; */
+    font-size: 20px;
+    color: red;
+}
+
